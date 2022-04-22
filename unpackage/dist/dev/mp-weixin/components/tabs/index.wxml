@@ -1,0 +1,1 @@
+<view class="tabs-wrapper"><view class="tabs"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><text data-event-opts="{{[['tap',[['handleItemClick',[index]]]]]}}" class="{{['tabs-item',[(index==curIndex)?'active':'']]}}" bindtap="__e">{{item}}</text></block></block></view></view>

@@ -1,0 +1,1 @@
+<view><u-button bind:click="__e" vue-id="280210a8-1" data-event-opts="{{[['^click',[['handleClick']]]]}}" bind:__l="__l" vue-slots="{{['default']}}">获取+推送</u-button></view>

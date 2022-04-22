@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/Ad",
+    "pages/classify/index",
+    "pages/cart/index",
+    "pages/food/index",
+    "pages/profile/index",
+    "pages/detail/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#111111",
+    "selectedColor": "#f0ad4e",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/index"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/classify/index"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/index"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/profile/index"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cake-item": "/components/cake-item/index",
+    "nav-bar": "/components/nav-bar/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}
